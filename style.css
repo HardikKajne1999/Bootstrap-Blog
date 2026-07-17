@@ -46,7 +46,7 @@ body {
 }
 
 .hero-title {
-  font-size: 42px;
+  font-size: 62px;
   line-height: 1.2;
   font-weight: 700;
   margin: 25px 0;
@@ -61,7 +61,16 @@ body {
   line-height: 1.6;
   margin-bottom: 25px;
 }
-
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.buttons a{
+  /* margin-inline: auto; */
+  max-width: fit-content;
+}
 .info-box h3 {
   color: #ffc107;
   font-weight: 700;
@@ -75,9 +84,9 @@ body {
   display: flex;
   width: 80%;
   margin-inline: auto;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 .info-box {
   background: rgba(255, 255, 255, 0.08);
@@ -87,8 +96,12 @@ body {
   text-align: center;
 }
 .item-list{
-    width: 50%;
+    width: 90%;
+    padding-left: 20px;
     margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
 }
 
 /* why germany */
@@ -116,7 +129,7 @@ body {
 .feature-item {
   display: flex;
   margin-inline: auto;
-
+  justify-content: center;
   align-items: center;
 }
 .feature-item i {
@@ -301,8 +314,9 @@ body {
 .service-card {
   background: #fff;
   border-radius: 12px;
-  padding: 35px 30px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  /* padding: 35px 30px; */
+  padding-left: 5rem;
+  /* box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08); */
 }
 
 .title {
@@ -360,9 +374,17 @@ body {
   border-radius: 14px;
   padding: 35px 30px;
   text-align: center;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  /* box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08); */
 }
-
+.why-list{
+  display: grid;
+  gap: .85rem;
+}
+.why-item{
+  /* height: 8rem; */
+  margin: auto;
+  padding: 20px; 
+}
 .feature-item {
   margin-bottom: 35px;
 }
@@ -416,6 +438,11 @@ body {
   margin-top: 10px;
 }
 
+.card-body{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+}
 .card-list {
   display: flex;
   align-items: center;
@@ -428,8 +455,12 @@ body {
   background: #232a3c;
   border-radius: 20px;
   padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
   flex-basis: 280px;
-  max-height: 50vh;
+  min-height: 50vh;
   margin-bottom: 1rem;
   transition: 0.3s;
 }
@@ -574,9 +605,14 @@ label{
     font-size:18px;
     margin:20px auto 30px;
     color:#ffe7d7;
-    max-width:420px;
+    /* max-width:420px; */
 }
-
+.btn-container{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
 .consultation-btn{
 
     background:#fff;
@@ -585,7 +621,7 @@ label{
     padding:14px;
     font-size:20px;
     font-weight:700;
-    margin-bottom:15px;
+    /* margin-bottom:15px; */
 }
 
 .consultation-btn:hover{
@@ -593,7 +629,7 @@ label{
 }
 
 .whatsapp-btn{
-
+    
     background:#08b94d;
     color:#fff;
     border-radius:10px;
@@ -645,6 +681,12 @@ label{
     font-size:15px;
     font-weight:600;
 }
+.btn-orange{
+  max-width: fit-content;
+  border: none;
+  padding-inline: 1rem;
+  margin: auto;
+}
 
 /* Footer */
 
@@ -684,20 +726,29 @@ label{
     font-size:16px;
 }
 
-.service-title{
+.footer-title{
 
     color:#fff;
-    margin:35px 0 20px;
+    /* margin:35px 0 20px; */
     font-size:28px;
 }
+.footer-divs-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.footer-list{
+  padding: 0;
 
-.service-list li{
-
+}
+.footer-list li{
+  list-style: none;
     margin-bottom:12px;
     font-size:17px;
 }
 
-.service-list li a, .popular-searches  a , .copyright, .author, .author a{
+.footer-list li a, .popular-searches  a , .copyright, .author, .author a{
   color: #aab4d4;
 }
 .fa-heart{

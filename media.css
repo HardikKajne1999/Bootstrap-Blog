@@ -6,13 +6,17 @@
   }
   .buttons {
     display: block;
+
+  }
+  .buttons a{
+    max-width: 100%;
   }
   .hero-card .btn:first-child {
     margin-bottom: 0.8rem;
   }
 
   .hero-title {
-    font-size: 34px;
+    font-size: 42px;
   }
 
   .hero-text {
@@ -29,6 +33,8 @@
   }
   .item-list{
     width: 80%;
+    padding-left: 10px;
+    grid-template-columns: repeat(1,1fr);
   }
   .box i{
     font-size: 2rem;
@@ -43,6 +49,7 @@
   }
   .service-list {
     display: block;
+    padding-left: 20px;
   }
   .title {
     font-size: 28px;
@@ -96,6 +103,14 @@
     .service-title{
         font-size:24px;
     }
+    .btn-container{
+      flex-direction: column;
+    }
+    .btn-container a{
+      width: 100%;
+      /* display: block; */
+      /* margin: 0; */
+    }
 }
 
 /* Mobile */
@@ -105,7 +120,7 @@
     padding: 25px 15px;
   }
   .hero-title {
-    font-size: 30px;
+    font-size: 38px;
   }
   .hero-card .btn {
     height: 3rem;
@@ -275,6 +290,7 @@
     font-size: 14px;
   }
   /* Eligibility */
+
   .card-header-custom{
         padding:20px;
     }
@@ -290,6 +306,12 @@
     label{
         font-size:16px;
     }
+    
+    .card-body{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 1rem;
+}
 
     .custom-input{
         height:50px;
