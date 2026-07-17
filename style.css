@@ -1,3 +1,9 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+}
 html,
 body {
   margin: 0;
@@ -482,4 +488,248 @@ body {
 img {
   width: 100%;
   display: block;
+}
+
+/* Eligibility */
+.eligibility-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+/* Gradient Header */
+
+.card-header-custom, .btn-danger{
+    background:linear-gradient(90deg,#ef2200,#ffb400);
+    color:#fff;
+    padding:30px;
+}
+
+.card-header-custom h2{
+    font-size:36px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.card-header-custom p{
+    font-size:20px;
+    line-height:1.5;
+    margin:0;
+}
+
+/* Labels */
+
+label{
+    font-weight:600;
+    font-size:20px;
+}
+
+/* Inputs */
+
+.custom-input{
+    height:58px;
+    border:none;
+    border-radius:30px;
+    background:#e7e7e7;
+    padding:0 20px;
+    font-size:18px;
+}
+
+.custom-input:focus{
+    box-shadow:none;
+    background:#e7e7e7;
+}
+
+/* Button */
+
+.btn-danger{
+    border-radius:10px;
+    font-weight: bold;
+    padding: 0;
+}
+
+/* start journey */
+.cta-section{
+    /* max-width:500px; */
+    margin:auto;
+}
+
+/* Orange Section */
+
+.cta-top{
+
+    background:linear-gradient(180deg,#e50000,#df6d00);
+    color:#fff;
+    padding:45px 20px;
+}
+
+.cta-title{
+    font-size:40px;
+    font-weight:700;
+    line-height:1.2;
+}
+
+.cta-subtitle{
+    font-size:18px;
+    margin:20px auto 30px;
+    color:#ffe7d7;
+    max-width:420px;
+}
+
+.consultation-btn{
+
+    background:#fff;
+    color:#e53935;
+    border-radius:10px;
+    padding:14px;
+    font-size:20px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.consultation-btn:hover{
+    color:#e53935;
+}
+
+.whatsapp-btn{
+
+    background:#08b94d;
+    color:#fff;
+    border-radius:10px;
+    padding:14px;
+    font-size:20px;
+    font-weight:700;
+}
+
+.whatsapp-btn img{
+    margin-right:8px;
+}
+
+.whatsapp-btn:hover{
+    color:#fff;
+}
+
+.btn-shadow{
+  box-shadow: 0 0.02rem 0.25rem black;
+}
+.stats-box{
+
+    margin-top:28px;
+    border:2px solid rgba(255,255,255,.35);
+    border-radius:40px;
+    padding:14px 18px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.country{
+
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:rgba(255,255,255,.15);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-weight:bold;
+    margin-right:12px;
+}
+
+.stats-text{
+
+    font-size:15px;
+    font-weight:600;
+}
+
+/* Footer */
+
+.footer-area{
+
+    background:#121a31;
+    color:#d6d8e0;
+    padding:45px 20px;
+}
+
+.footer-area h3{
+
+    color:#fff;
+    font-size:32px;
+    margin-bottom:18px;
+}
+
+.footer-desc{
+
+    line-height:1.8;
+    font-size:17px;
+    margin-bottom:25px;
+}
+
+.contact-list,
+.service-list{
+
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.contact-list li{
+
+    margin-bottom:15px;
+    line-height:1.7;
+    font-size:16px;
+}
+
+.service-title{
+
+    color:#fff;
+    margin:35px 0 20px;
+    font-size:28px;
+}
+
+.service-list li{
+
+    margin-bottom:12px;
+    font-size:17px;
+}
+
+.service-list li a, .popular-searches  a , .copyright, .author, .author a{
+  color: #aab4d4;
+}
+.fa-heart{
+  color: red;
+}
+footer h4{
+  padding-top: 2rem;
+  color: white;
+}
+footer hr{
+  margin-block: 1.25rem;
+  background-color: white;
+}
+.footer-icons{
+  display: flex;
+  gap: .5rem;
+}
+
+.footer-icon {
+  width: 2.5rem;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: rgb(12, 44, 86);
+  border-radius: 50%;
+}
+.footer-icon i{
+  font-size: 1.25rem;
+}
+.footer-icon:hover{
+  cursor: pointer;
+  background-color: rgb(6, 68, 148);
 }

@@ -76,6 +76,26 @@
   .feature-item p {
     font-size: 14px;
   }
+  /* Eligibility */
+  .card-header-custom h2{
+        font-size:30px;
+    }
+
+    .card-header-custom p{
+        font-size:17px;
+    }
+    /* start journey */
+    .cta-title{
+        font-size:34px;
+    }
+
+    .footer-area h3{
+        font-size:28px;
+    }
+
+    .service-title{
+        font-size:24px;
+    }
 }
 
 /* Mobile */
@@ -254,4 +274,80 @@
   .testimonial-text {
     font-size: 14px;
   }
+  /* Eligibility */
+  .card-header-custom{
+        padding:20px;
+    }
+
+    .card-header-custom h2{
+        font-size:22px;
+    }
+
+    .card-header-custom p{
+        font-size:15px;
+    }
+
+    label{
+        font-size:16px;
+    }
+
+    .custom-input{
+        height:50px;
+        font-size:15px;
+    }
+
+    .btn-danger{
+        font-size:17px;
+    }
+    /* start journey */
+    .cta-top{
+        padding:35px 18px;
+    }
+
+    .cta-title{
+        font-size:28px;
+    }
+
+    .cta-subtitle{
+        font-size:15px;
+    }
+
+    .consultation-btn,
+    .whatsapp-btn{
+        font-size:16px;
+        padding:12px;
+    }
+
+    .stats-box{
+        flex-direction:row;
+        padding:12px;
+    }
+
+    .stats-text{
+        font-size:12px;
+    }
+
+    .country{
+        width:34px;
+        height:34px;
+        font-size:14px;
+    }
+
+    .footer-area{
+        padding:35px 18px;
+    }
+
+    .footer-area h3{
+        font-size:22px;
+    }
+
+    .footer-desc,
+    .contact-list li,
+    .service-list li{
+        font-size:14px;
+    }
+
+    .service-title{
+        font-size:20px;
+    }
 }
