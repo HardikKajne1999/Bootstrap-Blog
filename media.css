@@ -1,6 +1,6 @@
 /* Tablet */
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .hero-card {
     padding: 30px 18px;
   }
