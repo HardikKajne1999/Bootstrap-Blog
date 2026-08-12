@@ -728,15 +728,15 @@ font-size: 1.25rem;}
 }
 
 .footer-title{
-
+  padding-top: 0;
     color:#fff;
-    /* margin:35px 0 20px; */
     font-size:28px;
 }
 .footer-divs-container{
   display: flex;
   justify-content: space-between;
   align-items: start;
+  align-content: start;
   flex-wrap: wrap;
 }
 .footer-list{
